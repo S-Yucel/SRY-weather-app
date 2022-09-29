@@ -1,3 +1,68 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+.weather-wrapper {
+  max-width: 650;
+  max-height: 350;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgb(208, 208, 208);
+  border-radius: 20px;
+  
+}
 h1 {
-  color: red;
+  display: block;
+  font-weight: 400;
+  font-size: 40px;
+  color:#0b2381;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(63, 45, 118, 0.976);
+  font-size: 16px;
+}
+.col-md-6 {
+ color: rgba(63, 45, 118, 0.976); 
+ font-size: 24px;
+}
+small {
+  color: rgba(63, 45, 118, 0.976);
+  margin-top: 0;
+  margin-left: 20px;
+  padding-top: 0;
+  display: block;
+}
+.weather-temperature img {
+  margin-right: 20px;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+#icon {
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+#temperature {
+  font-size: 40px;
+  display: inline;
+}
+.units {
+ 
+  position: relative;
+  font-size: 16px;
+  top: -32;
+  
 }
