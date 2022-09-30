@@ -1,7 +1,5 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  
-  
 }
 .weather-wrapper {
   max-width: 650;
@@ -10,13 +8,13 @@ body {
   padding: 20px;
   border: 2px solid rgb(67, 86, 53);
   border-radius: 20px;
-  background-color:rgb(197, 184, 144);
+  background-color: rgb(197, 184, 144);
 }
 h1 {
   display: block;
   font-weight: 400;
   font-size: 40px;
-  color:#0b2381;
+  color: #0b2381;
   line-height: 30px;
   text-align: left;
   margin-bottom: 20px;
@@ -33,15 +31,13 @@ li {
   padding: 0;
   color: rgba(63, 45, 118, 0.976);
   font-size: 16px;
-  
-  
 }
 li::first-letter {
   text-transform: capitalize;
 }
 .col-md-6 {
- color: rgba(63, 45, 118, 0.976); 
- font-size: 24px;
+  color: rgba(63, 45, 118, 0.976);
+  font-size: 24px;
 }
 small {
   color: rgba(63, 45, 118, 0.976);
@@ -59,7 +55,6 @@ small {
 #icon {
   box-sizing: border-box;
   text-align: center;
-  
 }
 #temperature {
   font-size: 40px;
@@ -69,8 +64,7 @@ small {
   position: relative;
   font-size: 16px;
   top: -32;
-  
 }
 .lower-case {
-  text-transform:lowercase;
+  text-transform: lowercase;
 }
