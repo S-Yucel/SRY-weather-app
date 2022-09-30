@@ -67,3 +67,6 @@ small {
   top: -32;
   
 }
+.lower-case {
+  text-transform:lowercase;
+}
