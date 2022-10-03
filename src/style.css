@@ -1,23 +1,14 @@
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: arial, sans-serif;
+  
 }
-.weather-wrapper {
-  max-width: 650;
-  max-height: 350;
-  margin-top: 30px;
-  padding: 20px;
-  border: 2px solid rgb(67, 86, 53);
-  border-radius: 20px;
-  background-color: rgb(197, 184, 144);
-}
+
 h1 {
-  display: block;
-  font-weight: 400;
-  font-size: 40px;
-  color: #0b2381;
-  line-height: 30px;
-  text-align: left;
-  margin-bottom: 20px;
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 
 ul {
@@ -29,42 +20,58 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgba(63, 45, 118, 0.976);
+
+  color: rgb(135, 135, 135);
   font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
-li::first-letter {
+
+li:first-letter {
   text-transform: capitalize;
 }
-.col-md-6 {
-  color: rgba(63, 45, 118, 0.976);
-  font-size: 24px;
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  
 }
-small {
-  color: rgba(63, 45, 118, 0.976);
-  margin-top: 0;
-  margin-left: 20px;
-  padding-top: 0;
-  display: block;
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid ;
+  border-radius: 5px;
+  background-color: rgb(224, 210, 181);
 }
+
+.overview {
+  margin-bottom: 20px;
+}
+
 .weather-temperature img {
-  margin-right: 20px;
-  float: left;
-  height: 60px;
-  width: 60px;
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
 }
-#icon {
-  box-sizing: border-box;
-  text-align: center;
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
 }
-#temperature {
-  font-size: 40px;
-  display: inline;
-}
-.units {
+
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -32;
+  top: -34px;
 }
-.lower-case {
-  text-transform: lowercase;
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
